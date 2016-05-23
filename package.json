@@ -1,6 +1,6 @@
 {
   "name": "clima",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get city wheather from wttr.in",
   "main": "clima",
   "scripts": {
