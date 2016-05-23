@@ -4,7 +4,11 @@
   "description": "Get city wheather from wttr.in",
   "main": "clima",
   "scripts": {
-    "test": "echo \":)\""
+    "test": "echo \":)\"",
+    "build:patch": "npm version patch && npm run pub",
+    "build:minor": "npm version minor && npm run pub",
+    "build:major": "npm version major && npm run pub",
+    "pub": "git push origin master && npm publish"
   },
   "repository": {
     "type": "git",
