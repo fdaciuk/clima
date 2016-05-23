@@ -3,6 +3,10 @@
   "version": "1.0.4",
   "description": "Get city weather from wttr.in",
   "main": "clima",
+  "bin": {
+    "clima": "clima"
+  },
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \":)\"",
     "build:patch": "npm version patch && npm run pub",
