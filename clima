@@ -1,7 +1,4 @@
-#! /bin/bash
-
-clima () {
-  curl http://wttr.in/$1
+#!/bin/bash
+clima() {
+  curl "http://wttr.in/$*"
 }
-
-clima $(echo "${@}" | tr ' ' '_')
