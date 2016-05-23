@@ -1,0 +1,24 @@
+{
+  "name": "clima",
+  "version": "1.0.0",
+  "description": "Get city wheather from wttr.in",
+  "main": "clima",
+  "scripts": {
+    "test": "echo \":)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fdaciuk/clima.git"
+  },
+  "keywords": [
+    "wheather",
+    "climate",
+    "clima"
+  ],
+  "author": "Fernando Daciuk - @fdaciuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fdaciuk/clima/issues"
+  },
+  "homepage": "https://github.com/fdaciuk/clima#readme"
+}

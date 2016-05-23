@@ -1,0 +1,5 @@
+#! /bin/bash
+
+clima () {
+  curl http://wttr.in/$1
+}
