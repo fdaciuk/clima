@@ -9,7 +9,7 @@
   "preferGlobal": true,
   "scripts": {
     "test": "echo \":)\"",
-    "postversion": "git push origin master --tags && npm publish"
+    "postversion": "git push origin dev && git checkout master && git merge dev && git push origin master --tags && npm publish && git checkout dev"
   },
   "repository": {
     "type": "git",
