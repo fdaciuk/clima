@@ -3,3 +3,5 @@
 clima () {
   curl http://wttr.in/$1
 }
+
+clima $(echo "${@}" | tr ' ' '_')
