@@ -1,7 +1,7 @@
 {
   "name": "clima",
   "version": "1.0.2",
-  "description": "Get city wheather from wttr.in",
+  "description": "Get city weather from wttr.in",
   "main": "clima",
   "scripts": {
     "test": "echo \":)\"",

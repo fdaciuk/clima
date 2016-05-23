@@ -1,6 +1,6 @@
 # clima
 
-> Get city wheater from wttr.in
+> Get city weather from wttr.in
 
 ## Installation
 
