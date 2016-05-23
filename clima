@@ -2,3 +2,5 @@
 clima() {
   curl "http://wttr.in/$*"
 }
+
+clima ${@}

@@ -9,10 +9,7 @@
   "preferGlobal": true,
   "scripts": {
     "test": "echo \":)\"",
-    "build:patch": "npm version patch && npm run pub",
-    "build:minor": "npm version minor && npm run pub",
-    "build:major": "npm version major && npm run pub",
-    "pub": "git push origin master && npm publish"
+    "postversion": "git push origin master --tags && npm publish"
   },
   "repository": {
     "type": "git",
