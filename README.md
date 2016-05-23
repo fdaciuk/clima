@@ -12,7 +12,7 @@ npm i -g clima
 
 ```sh
 # clima <CityName>
-$ clima Joinville
+$ clima Porto Alegre
 ```
 
 ## License
