@@ -1,6 +1,6 @@
 {
   "name": "clima",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get city weather from wttr.in",
   "main": "clima",
   "scripts": {
