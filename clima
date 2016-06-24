@@ -1,6 +1,6 @@
 #!/bin/bash
 clima() {
-  curl "http://wttr.in/$*"
+  curl --silent "http://wttr.in/$*"
 }
 
 clima ${@}
